@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Queen City Records | Home</title>
+	<link rel="stylesheet" href="animsition.css" />
+	<link rel="stylesheet" href="magnific-popup.css">
+	<link rel="stylesheet" href="style.css" />
+	
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="animsition.js"></script>
+	<script src="jquery.magnific-popup.js"></script>
+	<script src="queencity.js"></script>
+
+</head>
+
+<body class = "animsition">
+	<header>
+		<!-- Placeholder logo for Queen City Records -->
+		<img src="logo.png" id="logo" alt="Queen City Records">
+		<!-- Nav Bar, consistent across the entire website -->
+	
+		<nav>
+				<ul>
+					<li><a href="index.html" class="animsition-link">Home</a></li>
+					<li><a href="aboutus.html" class="animsition-link">About Us</a></li>
+					<li><a href="ourservices.html" class="animsition-link">Our Services</a></li>
+					<li><a href="contact.html" class="animsition-link">Contact Us</a></li>
+					<li><a href="shop.html" class="animsition-link">Shop</a></li>
+				</ul>
+		</nav>
+	
+	</header>
+<main>
+	<div class="title">
+		<h1>Charlotte, NC's new premier <br> Vinyl Record Pressing Plant</h1>
+		<div class="titleButtons">
+			<!-- These buttons lead to the 'Our Services' and 'Contact' subpages-->
+			<button type="button" id="aboutButton" onclick="location.href='ourservices.html'">Learn More About Our Services</button>
+			<button type="button" id="contactButton" onclick="location.href='contact.html'">Contact Us</button>
+		</div>
+	</div>
+	<div class="moreInfo">
+		<h2>Welcome to Queen City Records</h2>
+		<p>Queen City Records is a new fully-featured vinyl 
+			record pressing plant located in Charlotte North Carolina. 
+		We specialize in helping artists put their music on vinyl at competitive prices!</p><br><br>
+	</div>
+	<!-- Class containing the main image, showing a placeholder picture of a pressing plant -->
+	<div class="mainImg">
+		<br><br><br><br>
+		<img src="ourservices2.jpg" href="ourservices2.jpg" id="thePresses" alt="Various Record Labels" class="image-link">
+		<br><br><br><br>
+	</div>
+</main>
+<footer>
+	<!-- Newsletter signup form in the footer, consistant across all pages on the website. -->
+	<h3>Subscribe to our Newsletter</h3>
+	<div class="newsletter">
+		<form action="/action_page.php" method="get">
+			<label for="fullName">Enter Name:</label>
+			<input type="text" id="fullName" name="fullName"><br><br>
+			<label for="email">Enter Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+			<input type="submit" id="newsletterButton" value="Submit">
+	  	</form>
+	</div>
+</footer>
+
+</body>
+</html>

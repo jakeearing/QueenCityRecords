@@ -1,0 +1,99 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Queen City Records | Our Services</title>
+	<link rel="stylesheet" href="animsition.css" />
+	<link rel="stylesheet" href="magnific-popup.css">
+	<link rel="stylesheet" href="style.css" />
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="jquery.magnific-popup.js"></script>
+	<script src="queencity.js"></script>
+</head>
+
+<body>
+	<header>
+		<!-- Placeholder logo for Queen City Records -->
+		<img src="logo.png" id="logo" alt="Queen City Records">
+		<!-- Nav Bar, consistent across the entire website -->
+		<nav>
+			<ul>
+				<li><a href="index.html" class="animsition-link">Home</a></li>
+				<li><a href="aboutus.html" class="animsition-link">About Us</a></li>
+				<li><a href="ourservices.html" class="animsition-link">Our Services</a></li>
+				<li><a href="contact.html" class="animsition-link">Contact Us</a></li>
+				<li><a href="shop.html" class="animsition-link">Shop</a></li>
+			</ul>
+		</nav>
+	</header>
+<main>
+	<div class="title">
+		<h1>Our Services</h1>
+		<div class="titleButtons">
+			<!-- These buttons lead to the 'Learn More' and 'Testimonials' subpages-->
+			<button type="button" id="aboutButton" onclick="location.href='ourservices.html'">Learn More</button>
+			<button type="button" id="aboutButton" onclick="location.href='ourservices.html'">Testimonials</button>
+		</div>
+		<br><br><br><br>
+	</div>
+	<div class="moreInfo">
+		<h2>Pressing Options</h2>
+		<p>Queen City Records is a new fully-featured vinyl 
+			record pressing plant located in Charlotte North Carolina. 
+		We specialize in helping artists put their music on vinyl at competitive prices!</p><br><br>
+	</div>
+	<br><br><br><br>
+	<div id="accordion">
+					
+		<h3 href="#accordion-1">Black Vinyl Pressing</h3>
+
+		<div id="accordion-1">
+
+			<p>Standard black vinyl pressing is the most affordable way to get your music on vinyl, without the added bells and whistles of colored or colored splatter vinyl</p>
+
+		</div>
+
+		<h3 href="#accordion-2">Colored Vinyl Pressing</h3>
+
+		<div id="accordion-2">
+
+			<p>Colored vinyl pressings, while more expensive, is highly sought after by those who collect music on vinyl</p>
+
+			</div>
+
+		<h3 href="#accordion-3">Colored Splatter Vinyl pressing</h3>
+			
+		<div id="accordion-3">
+
+				<p>Lastly, colored splatter vinyl is highly coveted amongst vinyl collectors for being extremely eye-catching and beautiful.</p>
+
+			</div>
+
+</div>
+	<!-- Two placeholder images are displayed here of a vinyl pressing plant -->
+	<div class="mainImg">
+		<br><br><br><br>
+		<img src="planthome.jpg" href="planthome.jpg" id="thePresses" alt="The Pressing Machinery" class="image-link">
+		<br><br><br><br>
+		<img src="plantservices.jpg" href= "plantservices.jpg" id="vinylRecordBeforeLabel" alt="A newly pressed record with no label" class="image-link">
+		<br><br><br><br>
+	</div>
+</main>
+<footer>
+	<!-- Newsletter signup form in the footer, consistant across all pages on the website. -->
+	<h3>Subscribe to our Newsletter</h3>
+	<div class="newsletter">
+		<form action="/action_page.php" method="get">
+			<label for="fullName">Enter Name:</label>
+			<input type="text" id="fullName" name="fullName"><br><br>
+			<label for="email">Enter Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+			<input type="submit" id="newsletterButton" value="Submit">
+	  	</form>
+	</div>
+</footer>
+</body>
+</html>

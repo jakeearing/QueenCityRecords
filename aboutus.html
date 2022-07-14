@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Queen City Records | About Us</title>
+	<link rel="stylesheet" href="animsition.css" />
+	<link rel="stylesheet" href="magnific-popup.css">
+	<link rel="stylesheet" href="style.css" />
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="animsition.js"></script>
+	<script src="jquery.magnific-popup.js"></script>
+	<script src="queencity.js"></script>
+</head>
+
+<body class = "animsition">
+	<header>
+		<!-- Placeholder logo for Queen City Records -->
+		<img src="logo.png" id="logo" alt="Queen City Records">
+		<!-- Nav Bar, consistent across the entire website -->
+		<nav>
+			<ul>
+				<li><a href="index.html" class="animsition-link">Home</a></li>
+				<li><a href="aboutus.html" class="animsition-link">About Us</a></li>
+				<li><a href="ourservices.html" class="animsition-link">Our Services</a></li>
+				<li><a href="contact.html" class="animsition-link">Contact Us</a></li>
+				<li><a href="shop.html" class="animsition-link">Shop</a></li>
+			</ul>
+		</nav>
+	</header>
+<main>
+	<div class="title">
+		<h1>About Us</h1>
+		<br><br><br><br><br><br><br><br>
+	</div>
+	<div class="moreInfo">
+		<h2>The Queen City Records Story</h2>
+		<p>All of us here at Queen City Records are extremely passionate about bringing high-quality sounding fidelity to our client's music. <br>
+			We are all avid vinyl collectors and musicians who understand artist's needs when it comes to physical copies of their art. <br>
+			We will work with the artist every step along the way to ensure they are satisfied and a high-quality product is made! No matter the pressing size.
+		</p><br><br>
+	</div>
+	<br>
+	<!-- The following lines will be updated using 2 different AJAX get requests from the josh.json and phil.json files -->
+	<h2 id="titleOwner"></h2>
+	<h3 id="name"></h3>
+	<p id="text"></p>
+	<br><br>
+	<h3 id="name2"></h3>
+	<p id="text2"></p>
+	<!-- Class containing the main image, showing a placeholder picture of record store related art -->
+	<div class="mainImg">
+		<br><br><br><br>
+		<img src="aboutus.jpg" href="aboutus.jpg" id="theowners" alt="Record Store Artwork" class="image-link">
+		<br><br><br><br>
+	</div>
+</main>
+<footer>
+	<!-- Newsletter signup form in the footer, consistant across all pages on the website. -->
+	<h3>Subscribe to our Newsletter</h3>
+	<div class="newsletter">
+		<form action="/action_page.php" method="get">
+			<label for="fullName">Enter Name:</label>
+			<input type="text" id="fullName" name="fullName"><br><br>
+			<label for="email">Enter Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+			<input type="submit" id="newsletterButton" value="Submit">
+	  	</form>
+	</div>
+</footer>
+</body>
+</html>
